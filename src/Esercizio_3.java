@@ -9,18 +9,19 @@ public class Esercizio_3 {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Inserisci un numero");
-        int numero = scan.nextInt();
+        int numero = Integer.parseInt(scan.nextLine());
         int risult = pariDispari(numero);
         System.out.println(risult);
 
 
+
         Scanner scn = new Scanner(System.in);
         System.out.println("Primo lato");
-        double n1 = scn.nextDouble();
+        double n1 = Double.parseDouble(scn.nextLine());
         System.out.println("Secondo lato");
-        double n2 = scn.nextDouble();
+        double n2 = Double.parseDouble(scn.nextLine());
         System.out.println("Terzo lato");
-        double n3 = scn.nextDouble();
+        double n3 = Double.parseDouble(scn.nextLine());
         double areaTri = areaTriangolo(n1,n2,n3);
         System.out.println("L'area del triangolo è " + areaTri);
 
