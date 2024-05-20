@@ -10,8 +10,8 @@ public class Esercizio_1 {
         System.out.println("Ciao "+ method2);
 
 
-        String[] arrayFirst = {"Ciao", "a", "tutti", "sono", "Brasiliano"};
-        String stringa = "quanti";
+        String[] arrayFirst = {"Ciao", "a", "quanti", "sono", "Brasiliano"};
+        String stringa = "tutti";
 
         String[] arrayMod = stringPlusArray(arrayFirst, stringa);
         String s = Arrays.toString(arrayMod);
@@ -33,12 +33,12 @@ public class Esercizio_1 {
         }
 
         String[] newArr = new String[6];
-        newArr[3] = str;
-        for (int i=0; i<3; i++)
+        newArr[2] = str;
+        for (int i=0; i<2; i++)
         {
             newArr[i]=array[i];
         }
-        for (int i = 3; i < 5; i++) {
+        for (int i = 2; i < 5; i++) {
             newArr[i + 1] = array[i];
         }
 
